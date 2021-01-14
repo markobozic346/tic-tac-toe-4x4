@@ -1,0 +1,88 @@
+body {
+    font-family: sans-serif;
+    background-color: antiquewhite;
+    text-align: center;
+  }
+  .difficulty-bar,
+  h1 {
+    padding: 10px 0 0px 0;
+  }
+  .turn-status{
+    display: none;
+    padding: 20px 0 28px 0;
+  }
+  .grid-background {
+    background-color: black;
+    width: fit-content;
+    margin: 50px auto 50px auto;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 1px 1px;
+    grid-template-areas:
+      "n1 n2 n3 n4"
+      "n5 n6 n7 n8"
+      "n9 n10 n11 n12"
+      "n13 n14 n15 n16";
+  }
+  .n1 {
+    grid-area: n1;
+  }
+  .n2 {
+    grid-area: n2;
+  }
+  .n3 {
+    grid-area: n3;
+  }
+  .n4 {
+    grid-area: n4;
+  }
+  .n5 {
+    grid-area: n5;
+  }
+  .n6 {
+    grid-area: n6;
+  }
+  .n7 {
+    grid-area: n7;
+  }
+  .n8 {
+    grid-area: n8;
+  }
+  .n9 {
+    grid-area: n9;
+  }
+  .n10 {
+    grid-area: n10;
+  }
+  .n11 {
+    grid-area: n11;
+  }
+  .n12 {
+    grid-area: n12;
+  }
+  .n13 {
+    grid-area: n13;
+  }
+  .n14 {
+    grid-area: n14;
+  }
+  .n15 {
+    grid-area: n15;
+  }
+  .n16 {
+    grid-area: n16;
+  }
+  
+  .area {
+    background-color: antiquewhite;
+    font-size: 5rem;
+    text-align: center;
+    padding-bottom: 8%;
+  }
+  .field:hover {
+    background-color: #d9cdad;
+  }
+  
